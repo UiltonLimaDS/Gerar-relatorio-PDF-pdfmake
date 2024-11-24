@@ -1,0 +1,123 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+button {
+  background-color: #0e0e0e;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 550;
+}
+
+button:hover {
+  background-color: #8e6203;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 30px auto;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Cabeçalho */
+.header {
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 28px;
+  color: #333;
+  margin: 0;
+}
+
+.header p {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
+/* --------------------------------------------------tabela*/
+.table-section {
+  margin-top: 20px;
+}
+
+.table-relatorio {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+.table-relatorio th {
+  background-color: #090D18;
+  color: #fff;
+  font-weight: bold;
+  padding: 15px;
+  text-align: left;
+}
+
+.table-relatorio td {
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table-relatorio tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table-relatorio tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* -------------------------------------------------------------resumo */
+.summary {
+  background: #f8f9fa;
+  border-left: 5px solid #090D18;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.summary h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.summary p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* -------------------------------------------------------------------------------rodape */
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #777;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+button {
+  margin-top: 5px;
+  margin-left: 0;
+}

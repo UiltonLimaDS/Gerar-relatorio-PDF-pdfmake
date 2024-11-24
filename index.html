@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relatório de Métricas - E-commerce</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="titulo-relatorio">
+      <h1>Relatório de Métricas - E-commerce</h1>
+      <p>Dados atualizados em: <span id="data-atual"></span></p>
+    </div>
+
+    <table class="table-relatorio">
+      <thead>
+        <tr>
+          <th>Métrica</th>
+          <th>Valor</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Vendas Totais</td>
+          <td>R$ 15.250,00</td>
+        </tr>
+        <tr>
+          <td>Pedidos Pendentes</td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <td>Produtos no Estoque</td>
+          <td>3.450</td>
+        </tr>
+        <tr>
+          <td>Lucro Bruto</td>
+          <td>R$ 11.000,00</td>
+        </tr>
+      </tbody>
+    </table>
+
+
+
+    <button id="download-pdf" class="btn-download">Baixar PDF</button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.6/pdfmake.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.6/vfs_fonts.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
