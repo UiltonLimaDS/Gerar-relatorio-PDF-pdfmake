@@ -7,7 +7,7 @@ Instalação:
 Clone este repositório:
 
 bash
-git clone https://github.com/seu-usuario/pdfmake-metricas-ecommerce.git
+git clone https://github.com/UiltonLimaDS/Gerar-relatorio-PDF-pdfmake
 Abra o arquivo index.html em seu navegador para visualizar e interagir com o relatório.
 
 Uso:
